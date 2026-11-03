@@ -1,0 +1,21 @@
+node_modules/
+.next/
+out/
+.env*
+!.env.example
+*.tsbuildinfo
+.DS_Store
+coverage/
+tmp/
+
+# Local deployment, generated output, and private verification evidence
+.vercel/
+artifacts/
+output/
+docs/*VERIFICATION.md
+*.log
+next-env.d.ts
+.codex/
+.agents/
+# Bill documents remain local, including synthetic review fixtures.
+tests/fixtures/*.pdf
